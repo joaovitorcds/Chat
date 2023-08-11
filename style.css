@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--h);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+body{
+
+}
+
+:root{
+    --a: #20232B;
+    --b: #000000;
+    --c: #15171C;
+    --d: #EFF285;
+    --e: #A87AE1;
+    --f: #5852D6;
+    --g: white;
+    --h: #EFF0F0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--a);
+    padding: 15px;
+    border-bottom: 0.2px solid var(--b);
+}
+
+.logo{
+    margin: 0 0 0 0px;
+    font-size: 17px;
+}
+
+p, a{
+    margin: 0 50px 0 0;
+}
+
+.div{
+    margin: 0 0 0 150px;
+}
+
+.Workes{
+    color: var(--g);
+}
+
+span{
+    margin: 0 8px 0 0;
+    cursor: pointer;
+}
+
+.yellow{
+    border-radius: 0 0 5px 5px;
+    border-bottom: 6px solid var(--d);
+    color: var(--d);
+    padding-bottom: 17px;
+}
+
+.fa-message-2{
+    color: var(--b);
+}
+
+.fa-message{
+    color: var(--d);
+}
+
+.fa-phone{
+    margin: 0 30px 0 0;
+}
+
+.profile{
+    margin: -10px 0 0 70px;
+}
+
+.photoprofile{
+    margin: 0 0 0 -20px;
+    border-radius: 200px;
+    width: 40px;
+}
+
+.corpo{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--a);
+}
+
+.opction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 300px;
+    height: 546px;
+    background-color: var(--b);
+    font-size: 15px;
+}
+
+.aa{
+    margin-top: 40px;
+}
+
+.a{
+    border: 2px solid var(--d);
+    border-radius: 50px;
+    background-color: var(--d);
+    padding: 10px 70px;
+    color: var(--b);
+}
+
+.premium{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    background-color: var(--e);
+    gap: 5px;
+    border-radius: 10px;
+    color: var(--g);
+    margin: 5px 0 0 0;
+}
+
+.premium-image{
+    width: 50px;
+    border-radius: 50px;
+}
+
+h1{
+    font-size: 15px;
+}
+
+.p{
+    font-size: 10px;
+    margin: 0 0 0 25px;
+}
+
+.a4{
+    margin: 8px 0 0 5px;
+    background-color: var(--c);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.Contacts{
+    margin: 30px 0 0 -50px;
+}
+
+.fa-magnifying-glass{
+    color: var(--b);
+}
+
+.search{
+    background-color: var(--d);
+    padding: 15px 100px 15px 30px;
+    border-radius: 20px;
+    color: var(--b);
+}
+
+.p2{
+    margin: 40px 0 0 -10px;
+    font-size: 15px;
+}
+
+.span{
+    margin: 0 0 0 130px;
+}
+
+.othercontacts{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.othercontacts .informactions{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    margin: 0 0 0 -20px;
+    border-radius: 200px;
+    width: 40px;
+}
+
+.span-2{
+    margin: 0 0 0 90px;
+}
+
+.chat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--c);
+    padding: 0 0 0 150px;
+    margin: 20px 0 0 -70px;
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid var(--c);
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 0 0 -140px;
+}
+
+img{
+    margin: -10px 20px 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+}
+
+.span-3{
+    color: white;
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+}
+
+.conversationn{
+    margin: 20px 0 0 -150px;
+    background-color: var(--a);
+    width: 650px;
+    height: 360px;
+    display: flex;
+    justify-self: center;
+    align-items: flex-end;
+}
+
+.messagess{
+    background-color: var(--b);
+    border-radius: 0 10px 10px 10px;
+}
+
+.pp{
+    background-color: var(--e);
+    display: inline;
+    margin: 0 0 20px 20px;
+    padding: 10px 30px;
+    border-radius: 0 20px 20px 20px;
+}
+
+.bbb{
+    margin: 10px 70px 0 -90px;
+}
+
+.send{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--a);
+  border-radius: 20px;
+  padding: 10px 20px; 
+}
+
+.BB{
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-paper-plane{
+    margin: 0 0 0 350px;
+}
